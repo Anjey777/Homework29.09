@@ -13,20 +13,19 @@ arr[i] = rnd.Next(1, 100);
 Console.WriteLine(+ arr[i]);
 }
 */
-            int a, i, n;
+            int  i, n;
             int[] m = new int[100];
  
             Random rand = new Random();
             n = 5;
-            Console.WriteLine("Исходный массив");
+            Console.WriteLine("Ваш массив: " );
             for (i = 0; i < n; i++)
             {
                 m[i] = rand.Next(0, 50);
                 Console.Write(m[i] + " ");
             }
- 
-            var min = m[0];
-            var max = m[0];
+            var min = m[i];
+            var max = m[i];
  
             for (i = 0; i < n; i++)
             {
@@ -39,12 +38,15 @@ Console.WriteLine(+ arr[i]);
                     max =i;
                 }
             }
-            Console.WriteLine("Минимальный элемент: " + m[min]);
-            Console.WriteLine("Максимальный элемент: " + m[max]);
+            Console.WriteLine("/Минимальный элемент: " + m[min]);
+            Console.Write("/Максимальный элемент: " + m[max]);
             for (i = 0; i < n; i++)
             {
-                Console.Write(m[i] + " ");
+            Console.Write(m[i] + " ");
             }
-            Console.WriteLine("\n Элементы между минимум и максимом" + m[i]);
-            for ( i=min+1;i<max;i++); //Console.Write(m[i]+" ");
+            {
+            Console.WriteLine("\n Элементы между минимум и максимом");
+            for (i = min+1; i<max; i++); 
+            //Console.WriteLine(m[i]+" ");
+            }
  
