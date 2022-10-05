@@ -7,8 +7,8 @@
 
 Console.WriteLine("Введите размерность массива");
 Console.Write("");
-int n = int.Parse(Console.ReadLine());
-int [] arr = new int[n];
+int num = int.Parse(Console.ReadLine());
+int [] arr = new int[num];
 Random rnd = new Random();
 for (int i = 0; i < arr.GetLength(0); i++)
 {
