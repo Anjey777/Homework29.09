@@ -38,15 +38,15 @@ Console.WriteLine(+ arr[i]);
                     max =i;
                 }
             }
+            {
             Console.WriteLine("/Минимальный элемент: " + m[min]);
             Console.Write("/Максимальный элемент: " + m[max]);
-            for (i = 0; i < n; i++)
-            {
-            Console.Write(m[i] + " ");
+            for (i = 0; i < n; i++);
             }
-            {
+            //Console.Write(m[i] + " ");
+            
             Console.WriteLine("\n Элементы между минимум и максимом");
             for (i = min+1; i<max; i++); 
-            //Console.WriteLine(m[i]+" ");
-            }
+            //Console.WriteLine(m[i] " ");
+            
  
